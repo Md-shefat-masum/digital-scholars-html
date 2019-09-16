@@ -296,14 +296,36 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <div class="video-body" >
-                        <video type="video/mp4"  src="https://digitalscholar.in/wp-content/uploads/2019/08/Video-1.mp4"></video>
-                        <div class="video-overlay" style="background: url(https://digitalscholar.in/wp-content/uploads/2019/07/DS-thumb.png); background-size: 100% 100%">
+                    <div class="video-body">
+                        <video id="video" type="video/mp4"
+                            src="https://digitalscholar.in/wp-content/uploads/2019/08/Video-1.mp4"></video>
+                        <div class="video-overlay"
+                            style="background: url(https://digitalscholar.in/wp-content/uploads/2019/07/DS-thumb.png); background-size: 100% 100%">
                         </div>
                         <div class="play-button">
                             <i class="fa fa-play-circle"></i>
                         </div>
+                        <script>
+                            $(".play-button i").click(function () {
+                                $("#video").get(0).play();
+                                $(".video-overlay").css("visibility", "hidden");
+                                $(".play-button").css("visibility", "hidden");
+                            });
+                            $("#video").click(function () {
+                                this.paused ? this.play() : this.pause();
+                            });
+                        </script>
                     </div>
+                </div>
+            </div>
+
+            <div class="row lowbottom">
+                <div class="col-md-4">
+                    <h4>Register For Free Personal Branding Session</h4>
+                    <p>
+                        Enroll for a free Demo class simply by submitting the form to get a taste of our unique training
+                        approach.
+                    </p>
                 </div>
             </div>
         </div>

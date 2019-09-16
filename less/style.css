@@ -324,9 +324,28 @@ button:focus {
 }
 #video-agency .video-body .play-button {
   position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#video-agency .video-body .play-button i {
+  color: white;
+  font-size: 130px;
+  cursor: pointer;
 }
 #video-agency .video-body video {
   width: 100%;
+  cursor: pointer;
+}
+#video-agency .lowbottom h4 {
+  font-weight: 700;
+  font-size: 30px;
+  color: #ffffff!important;
+  line-height: 1.2em;
+}
+#video-agency .lowbottom p {
+  font-size: 14px;
+  color: white;
 }
 #footer {
   background-size: cover;
