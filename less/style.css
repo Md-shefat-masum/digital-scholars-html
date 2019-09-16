@@ -255,6 +255,52 @@ button:focus {
 :focus {
   box-shadow: none;
 }
+#module .common-heading {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1.2em;
+  text-align: center;
+  padding: 40px 0px;
+}
+#module p {
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.6);
+  margin-bottom: 30px;
+  text-align: justify;
+  padding: 0px 200px;
+}
+#module .module-body {
+  width: 100%;
+  overflow: hidden;
+  background: white;
+  border: 1px solid #f5f4f9;
+}
+#module .module-body .single-module {
+  width: 100%;
+  overflow: visible;
+  background: white;
+  border: 1px solid #f5f4f9;
+  margin: 15px;
+}
+#module .module-body .single-module .icon {
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+  box-sizing: border-box;
+  float: left;
+}
+#module .module-body .single-module .icon img {
+  width: 100%;
+}
+#module .module-body .single-module h3 {
+  font-size: 18px;
+  color: #13234c;
+  line-height: 100px;
+  height: 100px;
+  margin: 0;
+  font-weight: 600;
+}
 #footer {
   background-size: cover;
   background-repeat: no-repeat;
