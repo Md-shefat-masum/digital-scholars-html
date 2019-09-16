@@ -279,13 +279,14 @@ button:focus {
   font-weight: 700;
   font-size: 50px;
   line-height: 1.4em;
+  padding-bottom: 50px;
 }
 #footer .footer-top a {
-  background-color: #13234c;
+  background-color: #ffffff;
   padding: 10px;
   width: 100%;
   border-radius: 4px;
-  color: white;
+  color: #13234c;
   letter-spacing: 2px;
   font-size: 14px;
   font-family: 'Roboto', sans-serif !important;
@@ -295,13 +296,46 @@ button:focus {
 #footer .footer-bottom {
   overflow: hidden;
   width: 100%;
+  padding: 50px 0px;
 }
 #footer .footer-bottom h3 {
   font-size: 22px;
   text-transform: uppercase;
   font-weight: 800;
   margin-bottom: 20px;
+  text-align: left;
 }
 #footer .footer-bottom ul li {
   list-style-type: circle;
+  margin-left: 15px;
+}
+#footer .footer-bottom ul li a {
+  color: white;
+  padding: 10px 0px;
+  display: block;
+}
+#footer .footer-bottom ul li a i {
+  display: inline-block;
+  padding-right: 10px;
+  height: 100%;
+}
+#footer .footer-bottom .first a {
+  padding-bottom: 20px;
+  display: block;
+  color: white;
+}
+#footer .footer-bottom .first p {
+  text-align: justify;
+}
+#footer .footer-bottom .first p a {
+  padding: 10px 0px 0px;
+}
+#footer .bottom {
+  width: 100%;
+  background-color: #13234c;
+  padding: 10px 0px;
+  color: white;
+  margin: 0;
+  font-size: 16px;
+  line-height: 38px;
 }

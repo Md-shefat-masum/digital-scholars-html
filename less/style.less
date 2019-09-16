@@ -325,6 +325,7 @@ button:focus {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
+
     .footer-top {
         text-align: center;
         padding-top: 11vw;
@@ -345,14 +346,15 @@ button:focus {
             font-weight: 700;
             font-size: 50px;
             line-height: 1.4em;
+            padding-bottom: 50px;
         }
 
         a {
-            .bg-brand-color;
+            .bg-white;
             padding: 10px;
             width: 100%;
             border-radius: 4px;
-            color:white;
+            color: @brand-color;
             letter-spacing: 2px;
             font-size: 14px;
             font-family: 'Roboto', sans-serif !important;
@@ -360,22 +362,64 @@ button:focus {
             text-transform: uppercase !important;
         }
     }
-    .footer-bottom{
+
+    .footer-bottom {
         overflow: hidden;
-        width:100%;
-        h3{
+        width: 100%;
+        padding: 50px 0px;
+
+        h3 {
             font-size: 22px;
             text-transform: uppercase;
             font-weight: 800;
             margin-bottom: 20px;
+            text-align: left;
         }
-        ul{
-            li{
-                list-style-type: circle;
-                a{
 
+        ul {
+            li {
+                list-style-type: circle;
+                margin-left: 15px;
+
+                a {
+                    i {
+                        display: inline-block;
+                        padding-right: 10px;
+                        height: 100%;
+                    }
+
+                    color:white;
+                    padding: 10px 0px;
+                    display: block;
                 }
             }
         }
+
+        .first {
+
+            a {
+                padding-bottom: 20px;
+                display: block;
+                color: white;
+            }
+
+            p {
+                text-align: justify;
+
+                a {
+                    padding: 10px 0px 0px;
+                }
+            }
+        }
+    }
+
+    .bottom {
+        width: 100%;
+        .bg-brand-color;
+        padding: 10px 0px;
+        color: white;
+        margin: 0;
+        font-size: 16px;
+        line-height: 38px;
     }
 }
