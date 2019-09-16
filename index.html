@@ -19,49 +19,203 @@
 
 <body>
 
-    <header>
+    <header id="nav" class="bg-white">
         <div class="container">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <a class="navbar-brand" href="#">Navbar</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse"
+            <nav class="navbar navbar-expand-lg navbar-light bg-light bg-white">
+                <a class="navbar-brand" href="#">
+                    <img src="images/logo/logo.png" alt="Digital Scholers">
+                </a>
+                <button class="navbar-toggler text-brand-color" type="button" data-toggle="collapse"
                     data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                     aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav mr-auto">
+                    <ul class="navbar-nav ml-auto">
                         <li class="nav-item active">
-                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                            <a class="nav-link" href="#">Home</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Link</a>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">About Us<i class="mdi mdi-chevron-down"></i></a>
+                            <ul class="">
+                                <li class=""><a href="#" class="">Our journey</a></li>
+                                <li class=""><a href="#" class="">our team</a></li>
+                                <li class=""><a href="#" class="">lwarning Culture</a></li>
+                            </ul>
                         </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Dropdown
-                            </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="#">Action</a>
-                                <a class="dropdown-item" href="#">Another action</a>
-                                <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="#">Something else here</a>
-                            </div>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Course<i class="mdi mdi-chevron-down"></i></a>
+                            <ul class="">
+                                <li class=""><a href="#" class="">3 Months</a></li>
+                            </ul>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Placement<i class="mdi mdi-chevron-down"></i></a>
+                            <ul class="">
+                                <li class=""><a href="#" class="">Students</a></li>
+                                <li class=""><a href="#" class="">become our Placement partners</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Blog</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Gallery<i class="mdi mdi-chevron-down"></i></a>
+                            <ul class="">
+                                <li class=""><a href="#" class="">Newspaper</a></li>
+                                <li class=""><a href="#" class="">Videos</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Contact Us<i class="mdi mdi-chevron-down"></i></a>
+                            <ul class="">
+                                <li class=""><a href="#" class="">Course enrollment</a></li>
+                                <li class=""><a href="#" class="">become our Placement partners</a></li>
+                                <li class=""><a href="#" class="">join our team</a></li>
+                            </ul>
                         </li>
                     </ul>
-                    <form class="form-inline my-2 my-lg-0">
-                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                    <form class="form-inline search-box my-2 my-lg-0">
+                        <div class="search bg-white">
+                            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                            <i class=" close fa fa-close"></i>
+                        </div>
+                        <button class=" search-btn btn btn-outline-success my-2 my-sm-0 border-0 text-color"
+                            type="submit"><i class="fa fa-search"></i>
+                        </button>
+                        <script>
+                            $(".search-btn").click(function () {
+                                $(".search").css("visibility", "visible");
+                                $(".search").css("width", "790px");
+                                $(".search").animate({
+                                    opacity: "1"
+                                }, 800);
+                            });
+                            $(".close").click(function () {
+                                $(".search").css("visibility", "hidden");
+                                $(".search").animate({
+                                    width: "0px"
+                                }, 800);
+                            }).stop();
+                        </script>
                     </form>
                 </div>
             </nav>
         </div>
-
     </header>
+
+    <!-- banner part start -->
+
+    <section id="banner">
+        <div class="container-out">
+            <div class="row banner m-0 owl-carousel ">
+                <div class="col-md-12 p-0">
+                    <div class="slider-body"
+                        style="background: url('images/banner/slider1.jpg');background-size: cover;background-repeat: no-repeat;">
+                        <div class="overlay"
+                            style="overflow: hidden; height: 100%;width: 100%; background: rgba(0,0,0,.3);">
+                            <div class="container">
+                                <div class="">
+                                    <div class="content">
+                                        <h3 class="">LEADING INDUSTRY EXPERT</h3>
+                                        <p class=" ">If you want to donate for flood victims, you can donate
+                                            by visiting to the link
+                                            below:
+                                            Bikash, Rocket, MasterCard, Visacard, etc.</p>
+                                        <div class="btns">
+                                            <a href="#" class="wow fadeInUp ">donate now</a>
+                                            <a href="#" class="wow fadeInUp lbtn2">donate now</a>F
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12 p-0">
+                    <div class="slider-body"
+                        style="background: url('images/banner/slider1.jpg');background-size: cover;background-repeat: no-repeat;">
+                        <div class="overlay"
+                            style="overflow: hidden; height: 100%;width: 100%; background: rgba(0,0,0,.3);">
+                            <div class="container">
+                                <div class="">
+                                    <div class="content">
+                                        <h3 class="">LEADING INDUSTRY EXPERT</h3>
+                                        <p class=" ">If you want to donate for flood victims, you can donate
+                                            by visiting to the link
+                                            below:
+                                            Bikash, Rocket, MasterCard, Visacard, etc.</p>
+                                        <div class="btns">
+                                            <a href="#" class="wow fadeInUp ">donate now</a>
+                                            <a href="#" class="wow fadeInUp lbtn2">donate now</a>F
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer part start -->
+
+    <footer class="brand-color" id="footer" style="background:url(./images/footer/footerbg.jpg)">
+        <div class="container">
+            <div class="footer-top">
+                <p>LET’S GET STARTED</p>
+                <h3>ARE YOU READY TO APPLY?</h3>
+                <a href="#">free Demo Class</a>
+            </div>
+            <div class="footer-bottom">
+                <div class="row">
+                    <div class="col-md-3">
+                        <a href="#">
+                            <img src="images/logo/flogo.pngf" alt="footer-logo">
+                        </a>
+                        <p>
+                            Digital Scholar was started in Chennai in 2019 as an extended part of EchoVME by Sorav Jain
+                            with the vision to become the Leading Digital Marketing Institute in India
+                            <a href="#">Read More</a>
+                        </p>
+                    </div>
+
+                    <div class="col-md-3">
+                        <h3>Quick Link</h3>
+                        <ul>
+                            <li><a href="#">3 months course</a></li>
+                            <li><a href="#">Our Journey</a></li>
+                            <li><a href="#">Our Team</a></li>
+                            <li><a href="#">Learning Culture</a></li>
+                            <li><a href="#">Blog</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3">
+                        <h3>Usefull links</h3>
+                        <ul>
+                            <li><a href="#">Join Our team</a></li>
+                            <li><a href="#">Course enrollment</a></li>
+                            <li><a href="#">become our placement partners</a></li>
+                            <li><a href="#">students</a></li>
+                            <li><a href="#">privacy policy</a></li>
+                            <li><a href="#">terms &amp; conditions</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3">
+                        <h3>Contact Info</h3>
+                        <ul>
+                            <li><a href="#"><i class="fa fa-check"></i>1B, Sapna Trade Centre, 135, Poonamallee High
+                                    Road, Pursaiwalkam, Chennai 600084</a></li>
+                            <li><a href=""><i class="fa fa-phone"></i>+4852221</a></li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 
 
     <script src="js/owl.carousel.min.js"></script>
