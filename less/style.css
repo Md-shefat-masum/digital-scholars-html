@@ -255,6 +255,9 @@ button:focus {
 :focus {
   box-shadow: none;
 }
+#module {
+  background: #f7f8fc;
+}
 #module .common-heading {
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
@@ -268,20 +271,18 @@ button:focus {
   color: rgba(0, 0, 0, 0.6);
   margin-bottom: 30px;
   text-align: justify;
-  padding: 0px 200px;
+  padding: 0px 20px;
 }
 #module .module-body {
   width: 100%;
-  overflow: hidden;
-  background: white;
-  border: 1px solid #f5f4f9;
+  overflow: visible;
 }
 #module .module-body .single-module {
   width: 100%;
+  margin-bottom: 30px;
   overflow: visible;
   background: white;
   border: 1px solid #f5f4f9;
-  margin: 15px;
 }
 #module .module-body .single-module .icon {
   width: 100px;
@@ -300,6 +301,7 @@ button:focus {
   height: 100px;
   margin: 0;
   font-weight: 600;
+  text-transform: capitalize;
 }
 #footer {
   background-size: cover;
