@@ -257,6 +257,7 @@ button:focus {
 }
 #footer {
   background-size: cover;
+  background-repeat: no-repeat;
   background-position: center center;
 }
 #footer .footer-top {
@@ -290,4 +291,17 @@ button:focus {
   font-family: 'Roboto', sans-serif !important;
   font-weight: 700 !important;
   text-transform: uppercase !important;
+}
+#footer .footer-bottom {
+  overflow: hidden;
+  width: 100%;
+}
+#footer .footer-bottom h3 {
+  font-size: 22px;
+  text-transform: uppercase;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+#footer .footer-bottom ul li {
+  list-style-type: circle;
 }
