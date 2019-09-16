@@ -368,7 +368,8 @@ button:focus {
   height: 52px;
   position: relative;
 }
-#video-agency .lowbottom .form-body form .input-field input {
+#video-agency .lowbottom .form-body form .input-field input,
+#video-agency .lowbottom .form-body form .input-field select {
   width: 100%;
   height: 100%;
   padding: 5px;
@@ -386,6 +387,8 @@ button:focus {
   text-align: center;
   background: #E7E8EC;
   border: 1px solid #B0B0B5;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
 }
 #footer {
   background-size: cover;
