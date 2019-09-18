@@ -478,12 +478,15 @@ button:focus {
 #who-can-take .course-body {
   overflow: visible;
   border-radius: 10px;
-  padding: 15px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.6);
+  padding: 20px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+  margin-bottom: 30px;
 }
 #who-can-take .course-body .course-image {
   overflow: hidden;
   width: 100%;
+  height: 206px;
+  margin-bottom: 15px;
 }
 #who-can-take .course-body .course-image img {
   width: 100%;
@@ -492,11 +495,46 @@ button:focus {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.7em;
+  text-transform: uppercase;
 }
 #who-can-take .course-body p {
   line-height: 1.8em;
   font-size: 14px;
   color: rgba(0, 0, 0, 0.6);
+}
+#student-voice .voice-bg {
+  background-image: linear-gradient(135deg, #13234c 0%, #2347aa 100%) !important;
+  padding: 20px;
+  border-radius: 10px;
+}
+#student-voice .voice-bg .voice-body {
+  widows: 100%;
+  overflow: hidden;
+  color: white;
+}
+#student-voice .voice-bg .voice-body i {
+  font-size: 28px;
+  display: inline-block;
+  border: 2px solid white;
+  border-radius: 50%;
+  padding: 19px;
+}
+#student-voice .voice-bg .voice-body h3 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 50px;
+  line-height: 1.2em;
+}
+#student-voice .voice-bg .voice-body h4 {
+  font-weight: 600!important;
+  font-size: 25px!important;
+}
+#student-voice .voice-bg .voice-body img {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+#student-voice .voice-bg .voice-body p {
+  font-size: 14px;
 }
 #footer {
   background-size: cover;
