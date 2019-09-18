@@ -726,12 +726,14 @@ button:focus {
   padding-bottom: 50px;
 }
 #our-team,
+#career,
 #growth,
 #trainers {
   padding: 100px 0px;
   background-color: #ffffff;
 }
 #our-team .team-body,
+#career .team-body,
 #growth .team-body,
 #trainers .team-body {
   margin-bottom: 30px;
@@ -742,6 +744,7 @@ button:focus {
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
 }
 #our-team .team-body .img,
+#career .team-body .img,
 #growth .team-body .img,
 #trainers .team-body .img {
   height: 120px;
@@ -750,11 +753,13 @@ button:focus {
   margin: 0 auto 10px;
 }
 #our-team .team-body .img img,
+#career .team-body .img img,
 #growth .team-body .img img,
 #trainers .team-body .img img {
   width: 100%;
 }
 #our-team .team-body h3,
+#career .team-body h3,
 #growth .team-body h3,
 #trainers .team-body h3 {
   font-size: 26px;
@@ -763,6 +768,7 @@ button:focus {
   margin: 0;
 }
 #our-team .team-body span,
+#career .team-body span,
 #growth .team-body span,
 #trainers .team-body span {
   font-size: 14px;
@@ -783,12 +789,45 @@ button:focus {
 #trainers .team-body .img p {
   text-align: justify;
 }
-#growth .list {
-  padding: 10px;
+#growth .list,
+.growth .list {
+  padding: 30px 50px;
+  line-height: 30px;
   position: relative;
+  font-weight: 600;
+  background: white;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 0 10px;
 }
-#growth .list p {
+#growth .list:after,
+.growth .list:after {
+  position: absolute;
+  content: '';
+  background: purple;
+  height: 100%;
+  left: 0;
+  width: 5px;
+  top: 0;
+}
+#growth .list p,
+.growth .list p {
   line-height: 20px;
+}
+#career {
+  padding-top: 0;
+}
+#career .list {
+  padding: 30px;
+  height: 200px;
+  margin-bottom: 50px;
+}
+.tbread-cumb .h2 {
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 1.3em;
+  text-align: center;
 }
 #footer {
   background-size: cover;
