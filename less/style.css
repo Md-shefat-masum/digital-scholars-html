@@ -478,6 +478,7 @@ button:focus {
   font-family: 'Roboto', 'sans-serif';
   color: black;
   padding: 15px 0px;
+  text-align: center;
 }
 #key-takeways .key-body p {
   line-height: 1.8em;
@@ -823,11 +824,67 @@ button:focus {
   height: 200px;
   margin-bottom: 50px;
 }
-.tbread-cumb .h2 {
+#tbreadcumb .overlay {
+  padding: 100px 0px 150px;
+}
+#tbreadcumb h2 {
   font-weight: 700;
-  font-size: 50px;
+  font-size: 55px;
   line-height: 1.3em;
   text-align: center;
+  color: white;
+}
+#tbreadcumb p {
+  color: white;
+  font-weight: 600;
+  font-size: 17px;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 30px 0px;
+}
+#tbreadcumb a {
+  letter-spacing: 2px;
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif !important;
+  font-weight: 700 !important;
+  text-transform: uppercase !important;
+  color: #13234c !important;
+  background: #ffffff;
+  padding: 15px 30px;
+  border-radius: 5px;
+  box-shadow: 0px 2px 18px 0px rgba(0, 0, 0, 0.3);
+  margin-left: 35%;
+}
+#course-overview {
+  padding: 100px 0px 130px;
+}
+#course-overview h3 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1.2em;
+  text-align: left;
+}
+#course-overview p {
+  font-size: 18px;
+  padding: 20px 0px;
+}
+#course-overview a {
+  letter-spacing: 2px;
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif !important;
+  font-weight: 700 !important;
+  text-transform: uppercase !important;
+  color: #fff !important;
+  background: #13234c;
+  padding: 15px 30px;
+  border-radius: 5px;
+  box-shadow: 0px 2px 18px 0px rgba(0, 0, 0, 0.3);
+}
+#course-overview .img {
+  width: 100%;
+  overflow: hidden;
+  border-radius: 10px;
 }
 #footer {
   background-size: cover;
