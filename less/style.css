@@ -546,6 +546,76 @@ button:focus {
   font-size: 14px;
   text-align: center;
 }
+#digital-sc {
+  padding: 100px 0px 150px;
+  background: white;
+}
+#digital-sc h2 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 1.2em;
+  padding-bottom: 70px;
+}
+#digital-sc .body {
+  width: 100%;
+  overflow: visible;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+  padding: 20px;
+}
+#digital-sc .body .img {
+  width: 100%;
+  height: 198px;
+  overflow: hidden;
+}
+#digital-sc .body .img img {
+  width: 100%;
+}
+#digital-sc .body h3 {
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 600;
+  padding-top: 30px;
+}
+#digital-sc .body span {
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 12px;
+}
+#digital-sc .body p {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.6);
+  padding-top: 10px;
+}
+#digital-sc .body a {
+  color: #fff;
+  position: relative;
+  top: 30px;
+  left: 22%;
+  border-width: 0px !important;
+  border-color: rgba(0, 0, 0, 0);
+  border-radius: 4px;
+  letter-spacing: 3px;
+  font-size: 14px;
+  font-family: 'Roboto', Helvetica, Arial, Lucida, sans-serif !important;
+  font-weight: 700 !important;
+  text-transform: uppercase !important;
+  background-image: linear-gradient(90deg, #13234c 0%, #205787 100%) !important;
+  padding-top: 12px !important;
+  padding-right: 20px !important;
+  padding-bottom: 12px !important;
+  padding-left: 20px !important;
+}
+#partners h2 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 1.2em;
+}
+#partners img {
+  width: 100%;
+  height: 83px;
+}
 #footer {
   background-size: cover;
   background-repeat: no-repeat;
