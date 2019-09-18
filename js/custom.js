@@ -15,6 +15,24 @@ $(document).ready(function () {
         }
     });
 
+    $(".student-voice").owlCarousel({
+        items: 1,
+        nav: false,
+        autoplay: true,
+        loop: true,
+        dots: true,
+        animateIn: 'zoomIn',
+        animateOute: 'zoomOut',
+        autoplayHoverPause: true,
+        responsive: {
+            0: {},
+            600: {
+                nav: false
+            },
+            1000: {}
+        }
+    });
+
     //this is for banar slide text animation in out on slide
     $(".banner").on('translate.owl.carousel', function () {
         $('.content h3').removeClass('fadeInLeft animated').hide();
