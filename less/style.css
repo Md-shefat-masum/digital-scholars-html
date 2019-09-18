@@ -628,6 +628,22 @@ button:focus {
 #partners .img img {
   width: 80%;
 }
+#breadcumb .overlay {
+  padding: 100px 0px;
+}
+#breadcumb h2 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 1.2em;
+  text-align: center;
+  color: white;
+  text-transform: capitalize;
+}
+#mission-vission .vission-body {
+  padding: 50px;
+  page-break-after: auto;
+}
 #footer {
   background-size: cover;
   background-repeat: no-repeat;
