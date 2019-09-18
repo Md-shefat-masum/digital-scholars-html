@@ -523,10 +523,12 @@ button:focus {
   font-family: 'Roboto', sans-serif;
   font-size: 50px;
   line-height: 1.2em;
+  padding: 15px 0px;
 }
 #student-voice .voice-bg .voice-body h4 {
-  font-weight: 600!important;
-  font-size: 25px!important;
+  font-weight: 600 !important;
+  font-size: 25px !important;
+  padding-bottom: 10px;
 }
 #student-voice .voice-bg .voice-body img {
   height: 100px;
@@ -534,7 +536,9 @@ button:focus {
   border-radius: 50%;
 }
 #student-voice .voice-bg .voice-body p {
+  padding-top: 10px;
   font-size: 14px;
+  text-align: center;
 }
 #footer {
   background-size: cover;
