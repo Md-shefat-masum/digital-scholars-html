@@ -450,6 +450,7 @@ button:focus {
             form {
                 width: 100%;
                 padding: 50px;
+
                 .input-field {
                     width: 100%;
                     border-radius: 5px;
@@ -466,9 +467,10 @@ button:focus {
                         border-radius: 5px;
                         border: 0;
                         padding-left: 67px;
-                        font-family: 'roboto',sans-serif;
+                        font-family: 'roboto', sans-serif;
                     }
-                    select{
+
+                    select {
                         padding: 15px;
                     }
 
@@ -488,7 +490,7 @@ button:focus {
                     }
                 }
 
-                button{
+                button {
                     height: 45px;
                     width: 100px;
                     max-width: 100%;
@@ -505,7 +507,7 @@ button:focus {
                     color: #FFFFFF !important;
                     border: 2px solid #233665;
                     background-position: left top;
-                    filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+                    filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
                     -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=3, Direction=135, Color='#C6C8CC')";
                     filter: progid:DXImageTransform.Microsoft.Shadow(Strength=3, Direction=135, Color='#C6C8CC');
                     padding: 0 10px;
@@ -536,31 +538,76 @@ button:focus {
 
 // key takeways
 
-#key-takeways{
+#key-takeways {
     padding: 100px 0px;
     background-color: white;
-    
-    .key-body{
+
+    .key-body {
         overflow: visible;
         background: white;
         border-radius: 5px;
         box-shadow: 0px 0px 20px rgba(00, 0, 0, .4);
         padding: 15px;
         margin-bottom: 30px;
-        .icon{
-            img{
-                width:auto;
+
+        .icon {
+            img {
+                width: auto;
             }
         }
-        h3{
+
+        h3 {
             font-size: 18px;
             font-weight: 700;
-            font-family: 'Roboto','sans-serif';
+            font-family: 'Roboto', 'sans-serif';
             color: black;
             padding: 15px 0px;
         }
-        p{
+
+        p {
             line-height: 1.8em;
+            .text-color;
+        }
+    }
+}
+
+// who can take the course part
+#who-can-take {
+    background: white;
+    padding: 100px 0px;
+
+    h2 {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 700;
+        font-size: 45px;
+        line-height: 1.2em;
+        padding-bottom: 50px;
+    }
+
+    .course-body {
+        overflow: visible;
+        border-radius: 10px;
+        padding: 15px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, .6);
+
+        .course-image {
+            overflow: hidden;
+            width: 100%;
+
+            img {
+                width: 100%;
+            }
+        }
+
+        h3 {
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 1.7em;
+        }
+
+        p {
+            line-height: 1.8em;
+            font-size: 14px;
             .text-color;
         }
     }

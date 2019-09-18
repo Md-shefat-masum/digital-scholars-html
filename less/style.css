@@ -464,6 +464,40 @@ button:focus {
   line-height: 1.8em;
   color: rgba(0, 0, 0, 0.6);
 }
+#who-can-take {
+  background: white;
+  padding: 100px 0px;
+}
+#who-can-take h2 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 1.2em;
+  padding-bottom: 50px;
+}
+#who-can-take .course-body {
+  overflow: visible;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.6);
+}
+#who-can-take .course-body .course-image {
+  overflow: hidden;
+  width: 100%;
+}
+#who-can-take .course-body .course-image img {
+  width: 100%;
+}
+#who-can-take .course-body h3 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.7em;
+}
+#who-can-take .course-body p {
+  line-height: 1.8em;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.6);
+}
 #footer {
   background-size: cover;
   background-repeat: no-repeat;
