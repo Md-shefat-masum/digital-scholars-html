@@ -106,6 +106,13 @@ $(document).ready(function () {
         }
     });
 
+    $('.venobox').venobox({
+        titleattr : 'data-title',
+        numeratio: true,
+        infinigall: true,
+        bgcolor: 'rgba(0,0,0,.5)'
+    });
+
     $(".progress-bar").loading();
 
     new WOW().init();
