@@ -1307,3 +1307,38 @@ button:focus {
     }
 }
 
+#gallery_area{
+    padding: 100px 0px;
+    .gallery-body{
+        margin-bottom: 30px;
+        img{
+            width: 100%;
+        }
+        position: relative;
+        a{
+            display: block;
+            &:hover .overlay{
+                opacity: 1;
+            }
+            .overlay{
+                opacity: 0;
+                transition: all linear .3s;
+                overflow: hidden;
+                height: 100%;
+                width: 100%;
+                position: absolute;
+                top: 0;
+                left: 0;
+                background: rgba(0, 0, 0, .3);
+                i{
+                    font-size: 22px;
+                    text-align: center;
+                    color: white;
+                    display: block;
+                    height: 100%;
+                    margin-top: 55%;
+                }
+            }
+        }
+    }
+}

@@ -1046,3 +1046,38 @@ button:focus {
   padding: 20px 0px 1px;
   color: white;
 }
+#gallery_area {
+  padding: 100px 0px;
+}
+#gallery_area .gallery-body {
+  margin-bottom: 30px;
+  position: relative;
+}
+#gallery_area .gallery-body img {
+  width: 100%;
+}
+#gallery_area .gallery-body a {
+  display: block;
+}
+#gallery_area .gallery-body a:hover .overlay {
+  opacity: 1;
+}
+#gallery_area .gallery-body a .overlay {
+  opacity: 0;
+  transition: all linear .3s;
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.3);
+}
+#gallery_area .gallery-body a .overlay i {
+  font-size: 22px;
+  text-align: center;
+  color: white;
+  display: block;
+  height: 100%;
+  margin-top: 55%;
+}
