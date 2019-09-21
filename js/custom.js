@@ -93,6 +93,7 @@ $(document).ready(function () {
         autoplay: true,
         loop: true,
         margin: 20,
+        dotsContainer: '.test',
         responsive: {
             0: {
                 items: 1
@@ -106,27 +107,8 @@ $(document).ready(function () {
         }
     });
 
-    $(".video-gallery").owlCarousel({
-        items: 1,
-        nav: false,
-        dots: false,
-        autoplay: true,
-        loop: true,
-        responsive: {
-            0: {
-                items: 1
-            },
-            600: {
-                items: 1
-            },
-            1000: {
-                items: 1
-            }
-        }
-    });
-
     $('.venobox').venobox({
-        titleattr : 'data-title',
+        titleattr: 'data-title',
         numeratio: true,
         infinigall: true,
         bgcolor: 'rgba(0,0,0,.5)'

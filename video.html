@@ -111,23 +111,104 @@
 
     <section id="video-agency">
         <div class="container">
-            <div class=" row  ">
-                <div class="col-12 ">
-                    <video id="video" class="w-100" type="video/mp4"
-                        src="https://digitalscholar.in/wp-content/uploads/2019/08/Video-1.mp4"></video>
+            <div class=" row  video-gallery owl-carousel owl-theme">
+                <div class="col-md-12" id="bookmark1" style="padding: 100px 30px">
+                    <div class="video-body m-0 p-3 py-3">
+                        <video id="video" type="video/mp4"
+                            src="https://digitalscholar.in/wp-content/uploads/2019/08/Video-1.mp4"></video>
+                        <div class="video-overlay"
+                            style="background: url(https://digitalscholar.in/wp-content/uploads/2019/07/DS-thumb.png); background-size: 100% 100%">
+                        </div>
+                        <div class="play-button">
+                            <i class="fa fa-play-circle"></i>
+                        </div>
+                        <script>
+                            $(".play-button i").click(function () {
+                                $("#video").get(0).play();
+                                $(".video-overlay").css("visibility", "hidden");
+                                $(".play-button").css("visibility", "hidden");
+                            });
+                            $("#video").click(function () {
+                                this.paused ? this.play() : this.pause();
+                            });
+                        </script>
+                    </div>
                 </div>
-                <div class="col-12">
-                    <video id="video" class="w-100" type="video/mp4"
-                        src="https://digitalscholar.in/wp-content/uploads/2019/08/Video-1.mp4"></video>
+                <div class="col-md-12" id="bookmark2" style="padding: 100px 30px">
+                    <div class="video-body m-0 p-3 py-3">
+                        <video id="video2" type="video/mp4"
+                            src="https://digitalscholar.in/wp-content/uploads/2019/08/Video-2.mp4"></video>
+                        <div class="video-overlay video-overlay2"
+                            style="background: url(https://digitalscholar.in/wp-content/uploads/2019/07/DS-thumb.png); background-size: 100% 100%">
+                        </div>
+                        <div class="play-button play-button2">
+                            <i class="fa fa-play-circle"></i>
+                        </div>
+                        <script>
+                            $(".play-button2 i").click(function () {
+                                $("#video2").get(0).play();
+                                $(".video-overlay2").css("visibility", "hidden");
+                                $(".play-button2").css("visibility", "hidden");
+                            });
+                            $("#video2").click(function () {
+                                this.paused ? this.play() : this.pause();
+                            });
+                        </script>
+                    </div>
                 </div>
-                <div class="col-12">
-                    <video id="video" class="w-100" type="video/mp4"
-                        src="https://digitalscholar.in/wp-content/uploads/2019/08/Video-1.mp4"></video>
-                </div>
-
+            </div>
+            
+            <div class="bookmarks">
+                <ul class="test">
+                    <li class="bookmark1 active" data="0">bookmark 1</li>
+                    <li class="bookmark2" data="1">bookmark 2</li>
+                </ul>
             </div>
         </div>
     </section>
+
+    <script>
+        var action = false,
+            clicked = false;
+        var Owl = {
+
+            init: function () {
+                Owl.carousel();
+            },
+
+            carousel: function () {
+                var owl;
+                $(document).ready(function () {
+
+                    owl = $('.video-gallery').owlCarousel({
+                        items: 1,
+                        center: true,
+                        nav: false,
+                        dots: true,
+                        loop: true,
+                        margin: 10,
+                        dotsContainer: '.test',
+                    });
+
+                    $('.owl-next').on('click', function () {
+                        action = 'next';
+                    });
+
+                    $('.owl-prev').on('click', function () {
+                        action = 'prev';
+                    });
+
+                    $('.bookmarks').on('click', 'li', function (e) {
+                        owl.trigger('to.owl.carousel', [$(this).index(), 300]);
+                    });
+                });
+            }
+        };
+
+        $(document).ready(function () {
+            Owl.init();
+        });
+    </script>
 
     <!-- footer part start -->
 
