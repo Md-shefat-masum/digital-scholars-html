@@ -1049,6 +1049,14 @@ button:focus {
 #gallery_area {
   padding: 100px 0px;
 }
+#gallery_area h2 {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 1.2em;
+  text-align: center;
+  text-transform: uppercase;
+  padding-bottom: 70px;
+}
 #gallery_area .gallery-body {
   margin-bottom: 30px;
   position: relative;
