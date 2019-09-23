@@ -91,6 +91,7 @@ h2 {
   background-color: #ffffff;
   border-top: 2px solid #13234c;
   padding: 15px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
 }
 #nav .navbar .navbar-nav .nav-item ul li {
   border-bottom: 1px solid #08090b17;
@@ -1276,4 +1277,25 @@ button:focus {
 #blog-details span {
   color: #a2a2a2 !important;
   font-size: 12px !important;
+}
+#blog-details img {
+  margin: 30px 0px;
+  width: 100%;
+}
+#blog-details P {
+  margin-bottom: 30px;
+  text-align: justify;
+}
+#blog-details .right h2 {
+  text-transform: uppercase;
+}
+#blog-details .right a {
+  color: #666;
+  text-decoration: none;
+  margin-bottom: 20px;
+  display: block;
+  font-size: 13px;
+}
+#blog-details .right a:hover {
+  color: #13234c;
 }
