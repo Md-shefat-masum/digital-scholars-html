@@ -116,17 +116,15 @@
             <div class=" row  video-gallery owl-carousel owl-theme">
                 <div class="col-md-12" id="bookmark1" style="padding: 100px 30px">
                     <div class="video-body m-0 p-3 py-3">
-                        <video id="video" type="video/mp4"
-                            src="https://digitalscholar.in/wp-content/uploads/2019/08/Video-1.mp4"></video>
-                        <div class="video-overlay"
-                            style="background: url(https://digitalscholar.in/wp-content/uploads/2019/07/DS-thumb.png); background-size: 100% 100%">
+                        <video id="video1" controls type="video/mp4" src="https://digitalscholar.in/wp-content/uploads/2019/08/Video-1.mp4"></video>
+                        <div class="video-overlay" style="background: url(https://digitalscholar.in/wp-content/uploads/2019/07/DS-thumb.png); background-size: 100% 100%">
                         </div>
                         <div class="play-button">
                             <i class="fa fa-play-circle"></i>
                         </div>
                         <script>
                             $(".play-button i").click(function () {
-                                $("#video").get(0).play();
+                                $("#video1").get(0).play();
                                 $(".video-overlay").css("visibility", "hidden");
                                 $(".play-button").css("visibility", "hidden");
                             });
@@ -136,10 +134,9 @@
                         </script>
                     </div>
                 </div>
-                <div class="col-md-12" id="bookmark2" style="padding: 100px 30px">
+                <!-- <div class="col-md-12" id="bookmark2" style="padding: 100px 30px">
                     <div class="video-body m-0 p-3 py-3">
-                        <video id="video2" type="video/mp4"
-                            src="https://digitalscholar.in/wp-content/uploads/2019/08/Video-2.mp4"></video>
+                        <video id="video2" controls  type="video/mp4" src="https://digitalscholar.in/wp-content/uploads/2019/08/Video-2.mp4"></video>
                         <div class="video-overlay video-overlay2"
                             style="background: url(https://digitalscholar.in/wp-content/uploads/2019/07/DS-thumb.png); background-size: 100% 100%">
                         </div>
@@ -157,7 +154,7 @@
                             });
                         </script>
                     </div>
-                </div>
+                </div> -->
             </div>
 
             <div class="bookmarks">
