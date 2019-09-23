@@ -360,19 +360,24 @@ button:focus {
 #video-agency .video-controls {
   text-align: center;
   width: 100%;
-  overflow: visible;
+  padding-bottom: 20px;
 }
 #video-agency .video-controls .test {
   display: block;
+  overflow: hidden;
+  margin: 0;
+  width: 100%;
+  height: 130px;
+  overflow: scroll;
 }
-#video-agency .video-controls .test .li {
+#video-agency .video-controls .test li {
   float: left;
   height: 80px;
   width: 120px;
-  margin: 0px 5px;
+  margin: 5px 5px;
   cursor: pointer;
 }
-#video-agency .video-controls .test .li img {
+#video-agency .video-controls .test li img {
   width: 100%;
   height: 100%;
   cursor: pointer;
