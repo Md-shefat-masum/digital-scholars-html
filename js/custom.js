@@ -85,6 +85,24 @@ $(document).ready(function () {
             }
         }
     });
+    $(".video-nav").owlCarousel({
+        items: 6,
+        nav: false,
+        dots: false,
+        autoplay: false,
+        loop: true,
+        responsive: {
+            0: {
+                items: 1
+            },
+            600: {
+                items: 3
+            },
+            1000: {
+                items: 6
+            }
+        }
+    });
 
     $(".testimonials").owlCarousel({
         items: 4,

@@ -357,6 +357,26 @@ button:focus {
   width: 100%;
   cursor: pointer;
 }
+#video-agency .video-controls {
+  text-align: center;
+  width: 100%;
+  overflow: visible;
+}
+#video-agency .video-controls .test {
+  display: block;
+}
+#video-agency .video-controls .test .li {
+  float: left;
+  height: 80px;
+  width: 120px;
+  margin: 0px 5px;
+  cursor: pointer;
+}
+#video-agency .video-controls .test .li img {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
 #video-agency .lowbottom {
   padding-top: 100px;
 }
