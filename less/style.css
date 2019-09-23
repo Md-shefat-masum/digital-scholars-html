@@ -1200,3 +1200,80 @@ button:focus {
   border-radius: 50%;
   line-height: 120px;
 }
+#icon ul li {
+  float: left;
+}
+#icon ul li a {
+  display: inline-block;
+  position: relative;
+  margin-right: 8px;
+  text-align: center;
+  text-decoration: none;
+  background-color: #13234c !important;
+  box-sizing: content-box;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  border-radius: 3px;
+  color: white;
+}
+#icon ul li a i {
+  color: white;
+  line-height: 32px;
+}
+#hire-part {
+  padding: 100px 0px 0px;
+}
+#hire-part .card {
+  margin-bottom: 30px;
+}
+#hire-part .card .img img {
+  width: 100%;
+}
+#hire-part .card h3 {
+  padding-top: 20px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.7em;
+  text-align: left;
+}
+#hire-part .card a {
+  color: #b5b5b5 !important;
+  border-width: 0px !important;
+  border-color: rgba(0, 0, 0, 0);
+  border-radius: 4px;
+  letter-spacing: 5px;
+  font-size: 14px;
+  font-weight: 700 !important;
+  text-transform: uppercase !important;
+  background-color: #ffffff;
+  display: inline-block;
+  background: #13173a;
+  padding: 10px 20px;
+}
+#hire-part .card a:hover {
+  padding-top: 10px !important;
+  padding-right: 20px !important;
+  padding-bottom: 10px !important;
+  padding-left: 20px !important;
+}
+#footer .footer-top p {
+  color: white;
+}
+#footer .footer-top h3 {
+  text-align: center;
+}
+#footer .footer-bottom .first p {
+  color: white;
+}
+#blog-details {
+  padding: 50px 0px;
+}
+#blog-details h2 {
+  text-align: left;
+  font-size: 22px;
+}
+#blog-details span {
+  color: #a2a2a2 !important;
+  font-size: 12px !important;
+}
