@@ -1089,3 +1089,114 @@ button:focus {
   height: 100%;
   margin-top: 55%;
 }
+.form-body {
+  padding: 30px 15px 15px;
+  width: 100%;
+  overflow: visible;
+  border-radius: 5px;
+  background: #0b193d;
+  padding: 4px;
+  box-sizing: border-box;
+}
+.form-body form {
+  width: 100%;
+  padding: 50px;
+}
+.form-body form .input-field {
+  width: 100%;
+  border-radius: 5px;
+  height: 52px;
+  position: relative;
+  margin-bottom: 20px;
+}
+.form-body form .input-field input,
+.form-body form .input-field select,
+.form-body form .input-field textarea {
+  width: 100%;
+  height: 100%;
+  padding: 5px;
+  border-radius: 5px;
+  border: 0;
+  padding-left: 67px;
+  font-family: 'roboto', sans-serif;
+}
+.form-body form .input-field textarea {
+  padding: 10px;
+  height: 80px;
+}
+.form-body form .input-field select {
+  padding: 15px;
+}
+.form-body form .input-field i {
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 23px;
+  line-height: 50px;
+  padding: 0px 17px;
+  color: #808080;
+  text-align: center;
+  background: #E7E8EC;
+  border: 1px solid #B0B0B5;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.form-body form button {
+  height: 45px;
+  width: 100px;
+  max-width: 100%;
+  display: inline-block;
+  font-weight: bold;
+  font-family: Helvetica;
+  font-size: 18px !important;
+  font-style: normal;
+  text-decoration: none;
+  cursor: pointer;
+  outline: none;
+  line-height: 1.3;
+  background: #233665;
+  color: #FFFFFF !important;
+  border: 2px solid #233665;
+  background-position: left top;
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=3, Direction=135, Color='#C6C8CC')";
+  filter: progid:DXImageTransform.Microsoft.Shadow(Strength=3, Direction=135, Color='#C6C8CC');
+  padding: 0 10px;
+  vertical-align: top;
+  text-transform: none;
+  text-shadow: none;
+  -moz-box-sizing: content-box;
+  -ms-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  -o-box-sizing: content-box;
+  box-sizing: content-box;
+  transition: 0.2s ease-out;
+  -webkit-transition: 0.2s ease-out;
+  -moz-transition: 0.2s ease-out;
+  -ms-transition: 0.2s ease-out;
+  -o-transition: 0.2s ease-out;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  position: relative;
+  margin-top: 20px;
+}
+#address {
+  text-align: center;
+  padding: 100px 0px;
+}
+#address .et_pb_main_blurb_image {
+  text-align: center;
+  padding-bottom: 30px;
+}
+#address .et_pb_main_blurb_image i {
+  text-align: center;
+  font-size: 50px;
+  color: #fa5e5d;
+  background-color: rgba(250, 94, 93, 0.3);
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  line-height: 120px;
+}
